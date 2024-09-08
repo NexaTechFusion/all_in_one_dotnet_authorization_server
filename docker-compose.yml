@@ -1,0 +1,6 @@
+﻿services:
+  all_in_one_dotnet_authorization_server:
+    image: all_in_one_dotnet_authorization_server
+    build:
+      context: .
+      dockerfile: all_in_one_dotnet_authorization_server/Dockerfile
