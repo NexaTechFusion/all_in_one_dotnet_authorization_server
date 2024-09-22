@@ -1,0 +1,21 @@
+﻿@page
+@using AIO.AuthServer
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model AIO.AuthServer.Pages.Authenticate.Consent
+
+@*Please do not forget to add tag helper*@
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+Layout = null;
+}
+
+Consent
+
+Redirect url: @Model.ReturnUrl
+
+<form method="post">
+    <input type="submit" name="grant" value="@Consts.GrantAccessValue">
+    <input type="submit" name="grant" value="@Consts.DenyAccessValue"/>
+</form>

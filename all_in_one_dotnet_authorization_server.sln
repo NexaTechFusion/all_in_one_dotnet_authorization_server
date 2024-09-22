@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "all_in_one_dotnet_authorization_server", "all_in_one_dotnet_authorization_server\all_in_one_dotnet_authorization_server.csproj", "{48FD67F6-70C7-4977-9405-DE99E93831EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIO.AuthServer", "AIO.AuthServer\AIO.AuthServer.csproj", "{48FD67F6-70C7-4977-9405-DE99E93831EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B62DC492-A612-4EF4-A587-5FF8BF5F370B}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		all_in_one_dotnet_authorization_server\Dockerfile = all_in_one_dotnet_authorization_server\Dockerfile
+		all_in_one_dotnet_authorization_server\appsettings.json = all_in_one_dotnet_authorization_server\appsettings.json
+		all_in_one_dotnet_authorization_server\appsettings.Development.json = all_in_one_dotnet_authorization_server\appsettings.Development.json
 	EndProjectSection
 EndProject
 Global
